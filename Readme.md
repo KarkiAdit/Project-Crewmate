@@ -1,28 +1,51 @@
-#### Simple posts MERN STACK app
+# Web Development Project 7 - *Project Crewmate*
 
-### Setup for backend
-Download the project or clone the repository from this repo 
-`https://github.com/bpeddapudi/MERN-simple-post.git`
+Submitted by: **Aditya Karki**
 
-- Once donwloaded go to the project folder add the projec to VS code.
-- Open your project in terminal
-- Go to backend folder `cd backend`
-- Before starting the project do `npm install`
-- once all the dependencies are intalled do `npm run devStart`
+This web app: **A webapp to add a list of crew members that demonstrates features like CRUD operations, API Calls, and Supabase databases.**
 
+Time spent: **10** hours spent in total
 
-### Setup for frontend
-- Open your project in terminal
-- Go to frontend folder `cd frontend`
-- Before starting the project do `npm install`
-- once all the dependencies are intalled do `npm start`
+## Required Features
 
+The following **required** functionality is completed:
 
-### Goal of the worksheet.
-1. In your react app once you enter some text in post area and then clicked on post. New post data has to be sent to NodeJS via POST API and data has to be saved on MongoDB atlas
-2. Once new post is created successfully in database, new post should be shown below.
-3. All the posts should be shown under 'Enter your post' text area. All the posts should be in dark gray background as provided in the example.
-4. New posts should always show up in the top.
-5. Evey post should show date posted. This data is automatically generated in MongoDB. You guys need to format it and display it.
-    Google for examples on how to work with Data strings in Javascript.
-6. When Delete button is clicked on any post. Respective post has to be deleted from Database via DELETE API. As soon the delete operation is successful React app should be updated.
+- [✅] **A create form allows users to add new cremates**
+- [✅] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
+- [✅] **The site displays a summary page of all the user's added crewmates**
+- [✅] **A previously created crewmate can be updated and deleted from the crewmate list**
+- [✅] **Each crewmate has a direct, unique link to an info page about them**
+
+The following **optional** features are implemented:
+
+- [✅] A crewmate can be given a category upon creation which restricts their attributes
+- [✅] The site displays summary statistics about a user's crew on their crew page 
+- [✅] The site displays a custom "success" metric about a user's crew which changes the look of the crewmate list
+
+The following **additional** features are implemented:
+
+* [✅] A responsive design was created using media queries
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+https://user-images.githubusercontent.com/68220732/231021856-ca9f3454-87ad-4847-a35a-f9e137d06984.mp4
+
+Describe any challenges encountered while building the app.
+
+## License
+
+    Copyright [2023] [ADITYA KARKI]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
